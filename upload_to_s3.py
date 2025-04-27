@@ -31,4 +31,4 @@ s3 = boto3.client('s3')
 
 s3.put_object(Bucket=BUCKET_NAME, Key=FILE_NAME, Body=json.dumps(data))
 
-print(f"✅ Datos subidos exitosamente a S3 en el bucket {BUCKET_NAME}.")
+print(f"✅ Datos subidos exitosamentee a S3 en el bucket {BUCKET_NAME}.")
